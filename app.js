@@ -7,7 +7,7 @@ dotenv.config();
 var mongoUrl = 'mongodb+srv://dbase1:pswd@cluster0.1uetv.mongodb.net/augintern?retryWrites=true&w=majority';
 var cors = require('cors')
 const bodyParser = require('body-parser')
-var port = process.env.PORT || 8125;
+var port = process.env.PORT || 8124;
 // save the database connection
 var db;
 
